@@ -1,0 +1,52 @@
+
+/* SECOND SECTION - PAGE */
+
+/* TEXT OF THE SECOND PAGE */
+.second-section {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-second-section {
+    display: flex;
+    height: 1000px;
+    justify-content: space-between;
+}
+
+.compreh-pm-serv {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.second-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 51px;
+    background: -webkit-linear-gradient(left, #097394 -22.13%, #BEEFFF 116.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.second-heading-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* IMAGE OF THE SECOND PAGE */
+
+.compreh-pm-serv-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section-image {
+    width: 604px;
+    height: 403px;
+    border-radius: 9px;
+}

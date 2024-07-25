@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Syne, sans-serif;
+    background-color: #F1FAFf;
+}
+
+/* TO WRITE WHERE IS NEEDED FOR THE FOLLOWING IN THE HTML FILE(S) */
+.maximum-width-section {
+    max-width: 1340px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+    /* MAIN */
+
+.main {
+    
+    height: max-content;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+/* FOOTER */
+
+.footer {
+    background: -webkit-linear-gradient(170deg, #097394 -3.65%, #BEEFFF 103.72%);
+    -webkit-text-fill-color: white;
+    border: 1px solid rgba(9, 115, 148, 0.1);
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper-footer-section {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.footer-comp-logo {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.footer-boxes-ontop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+
+/* FLEX THE LISTS */
+
+.footer-flex-ul {
+    display: flex;
+    align-items: flex-start;
+    height: 60%;
+}
+
+/* CONTACT LIST */
+
+.footer-contact-list {
+    padding-right: 100px;
+
+}
+
+.footer-contact-list-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    padding-bottom: 5px;    
+}
+
+.footer-contact-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+/* QUICK LINKS LIST */
+
+.footer-quick-links-list {
+
+}
+
+.footer-quick-links-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    padding-bottom: 5px;
+
+}
+
+.footer-quick-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+/* SOCIAL ICONS */
+
+.footer-social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 48px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+/* FOOTER MESSAGE & COPYRIGHT */
+
+.message-copyright {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 139, 0.5);
+}
+
+.footer-message-copyright {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-message {
+
+}
+
+.copyright {
+
+}

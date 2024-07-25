@@ -1,0 +1,102 @@
+/* THIRD SECTION - PAGE */
+
+.third-section {
+    background-image: url(https://s3-alpha-sig.figma.com/img/ed7a/b8bd/69b815edea87f9ef26157cb5a6d90984?Expires=1722816000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pox5s2rSv1UfO-Ji5taYyX9nilFLc8psw5jtHaG2e--mePpTbvvMUSfaKA~mtRRCpsJih4RGST-u2lcGpIecqDZv23MT3JpJUY9frF3XozGYXkd-SBkOrUjLSznw6hZLFfzBR~Ww37NwvxxKJzaUvkDnqbXbbHrg31ZJgBBtgMTE6LDXL0zXVM7qWaX2ZDEvrSgq4O5gqWPJRKC019B~sCa0-ou-dYqoeW~DQGhC-6gYotEA8hiDelBIKR~qijKtMaVtGt9slNevE58b7T-XIaM4BCSLcWj5HWEHP4mcstNVjAWC72AxAL-jHQtYYM1KxNa7ukrKrtza0B1G2Zk2-w__);
+
+
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.third-section-text {
+
+}
+
+.third-section-title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*THIRD SECTION STATUS BAR*/
+
+
+.wrapper-third-section-statbar {
+    
+}
+
+.third-section-statbar {
+    font-size: 27px;
+    background: linear-gradient(266.94deg, #097394 -4.88%, #BEEFFF 139.22%);
+    height: 246px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.third-section-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.third-section-stat span {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: left;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.third-section-stat {
+    flex: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.third-section-stat + .third-section-stat::before {
+    content:'';
+    position: absolute;
+    border: solid rgba(255, 255, 255, 1);
+    border-width: thin;
+    height: 244px;
+    top: 50px;
+    left: 0%;
+    transform: translateY(-50px);
+}
+
+.third-section-link {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: underline;
+    color: rgba(9, 115, 148, 1);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.third-section-link-white {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: underline;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
